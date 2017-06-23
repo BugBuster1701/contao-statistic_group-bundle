@@ -9,7 +9,7 @@
  *
  */
 
-namespace BugBuster\BotdetectionBundle\ContaoManager;
+namespace BugBuster\StatisticsGroupBundle\ContaoManager;
 
 use Contao\ManagerPlugin\Bundle\Config\BundleConfig;
 use Contao\ManagerPlugin\Bundle\BundlePluginInterface;
