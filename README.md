@@ -1,2 +1,3 @@
-# contao-statistic_group-bundle
-Contao - Statistic Group
+# Contao 4 - Statistic Group - Bundle
+
+Statistic Group in the back end
