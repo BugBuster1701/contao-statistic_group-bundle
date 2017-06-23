@@ -1,0 +1,5 @@
+@CHARSET "UTF-8";
+
+#tl_navigation .group-statistics {
+    background: rgba(0, 0, 0, 0) url("bundles/bugbusterstatisticsgroup/graph-01-16.png") no-repeat scroll 3px 2px;
+}
