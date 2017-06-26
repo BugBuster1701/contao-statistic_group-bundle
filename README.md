@@ -10,6 +10,15 @@ If extensions are installed from BugBuster with statistics, the menu items are m
 (german example)
 
 
+## For Translators
+Translations are managed using Transifex. To create a new translation or to help to maintain an existing one, please register at transifex.com.
+
+Project Link: [https://www.transifex.com/projects/p/contao-statistic_group-bundle/](https://www.transifex.com/projects/p/contao-statistic_group-bundle/)
+
+Howto: [http://docs.transifex.com/faq/#translating](http://docs.transifex.com/faq/#translating)
+
+
+
 ## Installation
 
 Installation Guide (EN): [INSTALLATION_EN.md](INSTALLATION_EN.md)
