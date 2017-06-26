@@ -1,13 +1,25 @@
 # Contao 4 - Statistic Group - Bundle
 
-Statistic Group in the backend
+## About
 
-Extension is still in development.
+This extension creates a new group in the back end: "Statistics"
+
+If extensions are installed from BugBuster with statistics, the menu items are moved there.
+
+![Statistic Group](https://contao.ninja/files/module/statistik-group-contao44.png)
+(german example)
 
 
+## Installation
 
-Backend icon made by [Alfredo Hernandez][1] from [www.flaticon.com][2] 
-is licensed by [CC 3.0 BY][3] 
+Installation Guide (EN): [INSTALLATION_EN.md](INSTALLATION_EN.md)
+
+Installationsanleitung (DE): [INSTALLATION_DE.md](INSTALLATION_DE.md)
+
+
+## Icon
+
+Backend icon made by [Alfredo Hernandez][1] from [www.flaticon.com][2] is licensed by [CC 3.0 BY][3] 
 
 
 
