@@ -1,0 +1,51 @@
+{
+	"name":"bugbuster/contao-statistic_group-bundle",
+	"description":"Contao 4 bundle, statistic group in the back end",
+	"keywords":["statistic","group","contao","bundle"],
+	"type":"contao-bundle",
+	"homepage":"http://contao.ninja",
+	"license":"LGPL-3.0+",
+	"authors":[
+		{
+			"name":"Glen Langer",
+			"homepage":"http://contao.ninja",
+			"role":"Developer"
+		}
+	],
+	"support":{
+		"issues":"https://github.com/BugBuster1701/contao-statistic_group-bundle/issues",
+		"irc":"irc://irc.freenode.org/contao.dev",
+		"source":"https://github.com/BugBuster1701/contao-statistic_group-bundle",
+		"forum":"https://community.contao.org/de/forumdisplay.php?119-Sonstige-Erweiterungen"
+	},
+	"require":{
+		"php": ">=5.6.0",
+		"contao/core-bundle": ">=4.4.0,<5.0"
+	},
+	"require-dev": {
+			"contao/manager-plugin": "^2.0"
+	},
+	"conflict": {
+			"contao/manager-plugin": "<2.0 || >=3.0",
+			"symfony/symfony": "3.2.7"
+	},
+	"autoload":{
+			"psr-4": {
+					"BugBuster\\StatisticsGroupBundle\\": "src/"
+		}
+	},
+	"extra":{
+		"contao":{
+			"transifex": {
+				"project": "contao-statistic_group-bundle",
+				"prefix": "master-",
+				"languages_cto": "src/Resources/contao/languages",
+				"languages_tx": ".tx"
+			}
+		},
+		"branch-alias": {
+			"dev-develop": "1.1.x-dev"
+		},
+		"contao-manager-plugin": "BugBuster\\StatisticsGroupBundle\\ContaoManager\\Plugin"
+	}
+}

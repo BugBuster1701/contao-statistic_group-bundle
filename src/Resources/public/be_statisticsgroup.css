@@ -1,0 +1,6 @@
+@CHARSET "UTF-8";
+
+#tl_navigation .group-statistics {
+    background: rgba(0, 0, 0, 0) url("bar-chart.svg") no-repeat scroll 3px 2px;
+	background-size: 16px 16px;
+}
