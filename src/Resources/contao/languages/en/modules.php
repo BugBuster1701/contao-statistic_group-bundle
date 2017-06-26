@@ -11,5 +11,4 @@
  */
 
 $GLOBALS['TL_LANG']['MOD']['statistics'] = 'Statistics';
-$GLOBALS['TL_LANG']['MOD']['zz_statistic_group'] = array('Statistic Group', 'New statistic group and move BugBuster\'s statistics in the new group.');
 
