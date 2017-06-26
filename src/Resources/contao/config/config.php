@@ -42,7 +42,7 @@ if (isset($GLOBALS['BE_MOD']['system']['botstatistics']))
     unset($GLOBALS['BE_MOD']['system']['botstatistics']);
 }
 
-//Download, new dlstat
+//Download, dlstat <= 1.0.0
 if (isset($GLOBALS['BE_MOD']['content']['dlstats']['callback']))
 {
     $GLOBALS['BE_MOD']['statistics']['dlstats'] = array
@@ -52,4 +52,15 @@ if (isset($GLOBALS['BE_MOD']['content']['dlstats']['callback']))
         'stylesheet' => $GLOBALS['BE_MOD']['content']['dlstats']['stylesheet']
     );
     unset($GLOBALS['BE_MOD']['content']['dlstats']);
+}
+//Download, dlstat >=1.0.1
+if (isset($GLOBALS['BE_MOD']['system']['dlstats']['callback']))
+{
+    $GLOBALS['BE_MOD']['statistics']['dlstats'] = array
+    (
+        'callback'   => $GLOBALS['BE_MOD']['content']['dlstats']['callback'],
+        'icon'       => $GLOBALS['BE_MOD']['content']['dlstats']['icon'],
+        'stylesheet' => $GLOBALS['BE_MOD']['content']['dlstats']['stylesheet']
+    );
+    unset($GLOBALS['BE_MOD']['system']['dlstats']);
 }
