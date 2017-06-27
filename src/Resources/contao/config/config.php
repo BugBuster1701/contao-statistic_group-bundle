@@ -58,9 +58,9 @@ if (isset($GLOBALS['BE_MOD']['system']['dlstats']['callback']))
 {
     $GLOBALS['BE_MOD']['statistics']['dlstats'] = array
     (
-        'callback'   => $GLOBALS['BE_MOD']['content']['dlstats']['callback'],
-        'icon'       => $GLOBALS['BE_MOD']['content']['dlstats']['icon'],
-        'stylesheet' => $GLOBALS['BE_MOD']['content']['dlstats']['stylesheet']
+        'callback'   => $GLOBALS['BE_MOD']['system']['dlstats']['callback'],
+        'icon'       => $GLOBALS['BE_MOD']['system']['dlstats']['icon'],
+        'stylesheet' => $GLOBALS['BE_MOD']['system']['dlstats']['stylesheet']
     );
     unset($GLOBALS['BE_MOD']['system']['dlstats']);
 }
