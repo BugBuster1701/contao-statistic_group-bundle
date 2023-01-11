@@ -1,7 +1,7 @@
 <?php
 
 /**
- * @copyright  Glen Langer 2008..2017 <http://contao.ninja>
+ * @copyright  Glen Langer 2008..2020 <http://contao.ninja>
  * @author     Glen Langer (BugBuster)
  * @package    StatisticsGroup
  * @license    LGPL-3.0+
@@ -32,7 +32,8 @@ class Plugin implements BundlePluginInterface
                 ->setLoadAfter(['Contao\CoreBundle\ContaoCoreBundle',
                                 'BugBuster\BannerBundle\BugBusterBannerBundle',
                                 'BugBuster\DlstatsBundle\BugBusterDlstatsBundle', 
-                                'BugBuster\VisitorsBundle\BugBusterVisitorsBundle'])
+                                'BugBuster\VisitorsBundle\BugBusterVisitorsBundle',
+                                'BugBuster\BotStatisticsBundle\BugBusterBotStatisticsBundle'])
                 ->setReplace(['zz_statistic_group']),
         ];
     }
