@@ -1,11 +1,9 @@
-# Contao 4 - Statistic Group - Bundle
+# Contao 5 - Statistic Group - Bundle
 
 [![Latest Stable Version](https://poser.pugx.org/bugbuster/contao-statistic_group-bundle/v/stable)](https://packagist.org/packages/bugbuster/contao-statistic_group-bundle)
 [![Total Downloads](https://poser.pugx.org/bugbuster/contao-statistic_group-bundle/downloads)](https://packagist.org/packages/bugbuster/contao-statistic_group-bundle)
 [![Latest Unstable Version](https://poser.pugx.org/bugbuster/contao-statistic_group-bundle/v/unstable)](https://packagist.org/packages/bugbuster/contao-statistic_group-bundle)
 [![License](https://poser.pugx.org/bugbuster/contao-statistic_group-bundle/license)](https://packagist.org/packages/bugbuster/contao-statistic_group-bundle)
-
-[![SensioLabsInsight](https://insight.sensiolabs.com/projects/ea01f23b-937a-49dd-a2c6-9a3c9f831deb/small.png)](https://insight.sensiolabs.com/projects/ea01f23b-937a-49dd-a2c6-9a3c9f831deb)
 
 
 ## About
@@ -21,7 +19,7 @@ If extensions are installed from BugBuster with statistics, the menu items are m
 ## For Translators
 Translations are managed using Transifex. To create a new translation or to help to maintain an existing one, please register at transifex.com.
 
-Project Link: [https://www.transifex.com/projects/p/contao-statistic_group-bundle/](https://www.transifex.com/projects/p/contao-statistic_group-bundle/)
+Project Link: [https://www.transifex.com/bugbuster/contao-statistic_group-bundle/](https://www.transifex.com/bugbuster/contao-statistic_group-bundle/)
 
 Howto: [http://docs.transifex.com/faq/#translating](http://docs.transifex.com/faq/#translating)
 
