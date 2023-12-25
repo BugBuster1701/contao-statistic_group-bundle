@@ -1,0 +1,10 @@
+<?xml version="1.0" ?><xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file datatype="php" date="2017-06-27T01:03:49+02:00" original="modules" source-language="en" target-language="en">
+    <body>
+      <trans-unit id="MOD.statistics">
+        <source>Statistics</source>
+        
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

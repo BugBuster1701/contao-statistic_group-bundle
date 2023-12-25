@@ -11,13 +11,13 @@
 
 namespace BugBuster\StatisticsGroupBundle;
 
-use Symfony\Component\HttpKernel\Bundle\Bundle;
+use Symfony\Component\HttpKernel\Bundle\AbstractBundle;
 
 /**
  * Configures the Contao Botdetection bundle.
  *
  * @author Glen Langer
  */
-class BugBusterStatisticsGroupBundle extends Bundle
+class BugBusterStatisticsGroupBundle extends AbstractBundle
 {
 }

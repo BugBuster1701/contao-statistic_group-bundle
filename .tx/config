@@ -1,3 +1,13 @@
 [main]
 host = https://app.transifex.com
 
+[o:bugbuster:p:contao-statistic_group-bundle:r:master-modules]
+file_filter            = contao/languages/<lang>/modules.xlf
+source_file            = contao/languages/en/modules.xlf
+source_lang            = en
+type                   = XLIFF
+minimum_perc           = 0
+resource_name          = master-modules
+replace_edited_strings = false
+keep_translations      = false
+
