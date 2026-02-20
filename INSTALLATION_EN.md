@@ -14,6 +14,6 @@ There are two types of installation.
 
 ## Installation via command line
 
-Installation in a Composer-based Contao 5.2+ Managed-Edition:
+Installation in a Composer-based Contao 5.6+ Managed-Edition:
 
 * `composer require "bugbuster/contao-statistic_group-bundle"`
